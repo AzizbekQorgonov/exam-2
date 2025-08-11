@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+
+<body>
+    <header class="bg-[#BB2339] py-[26px]">
+        <div class="container mx-auto flex justify-between items-center">
+            <a href="./index.html"><img src="../assets/images/logo.png" alt="logo"></a>
+
+            <button><img class="block w-[48px] lg:hidden" src="../assets/images/menu.png" alt="menu-bar"></button>
+            <div class="hidden lg:flex items-center gap-[40px]">
+                <ul class="text-[#FFFFFF] text-[16px] flex items-center gap-[40px]">
+                    <li>
+                        <a href="../pages/restaurant.html">Menu</a>
+                    </li>
+                    <li>
+                        <a href="../pages/news.html">News</a>
+                    </li>
+                    <li>
+                        <a href="../pages/about.html">About Us</a>
+                    </li>
+                    <li>
+                        <a href="../pages/contact.html">Contact Us</a>
+                    </li>
+                </ul>
+
+                <button
+                    class="w-[131px] h-[48px] rounded-[100px] border-[1px] border-[#FFFFFF] text-[#FFFFFF] text-[16px] font-mdium hover:bg-[#FFFFFF] hover:text-[#BB2339] hover:transition duration-500 ease-in-out">Log
+                    In</button>
+            </div>
+
+        </div>
+    </header>
+
+
+
+
+    <main>
+        <section>
+            <div class="container mx-auto">
+                <div class="flex my-[70px]">
+                    <a class="text-[14px] font-normal tracking-[103%] pr-[5px] border-r-[1px] border-[#AAAAAA] text-[#AAAAAA] hover:text-[#BB2339]"
+                        href="../index.html">Home</a>
+                    <a class="text-[14px] font-normal tracking-[103%] pl-[5px] border-l-[1px] border-[#AAAAAA] text-[#AAAAAA] hover:text-[#BB2339]"
+                        href="../pages/restaurant.html">Menu</a>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="container mx-auto flex flex-col lg:flex-row gap-[40px]">
+                <div class="hidden lg:block bg-[#BB2339] w-[428px] h-[884px] py-[50px] px-[40px] rounded-[20px]">
+                    <h1 class="font-mdium text-[48px] text-[#FFFFFF] tracking-[103%]">Our Regular Menu Pack</h1>
+                    <div class="mt-[40px]">
+                        <div class="flex flex-col gap-[20px]">
+                            <button
+                                class="text-white w-[82px] border border-[#FFFFFF] rounded-full px-[30px] py-[10px] bg-transparent flex-shrink-0 hover:bg-[#FFFFFF] hover:text-black transition-all duration-300 hover:scale-105">
+                                All
+                            </button>
+                            <button
+                                class="text-white w-[124px] border border-[#FFFFFF] rounded-full px-[30px] py-[10px] bg-transparent flex-shrink-0 hover:bg-[#FFFFFF] hover:text-black transition-all duration-300 hover:scale-105">
+                                KEBABS
+                            </button>
+                            <button
+                                class="bg-transparent w-[108px] text-white border border-[#FFFFFF] px-[30px] py-[10px] rounded-full flex-shrink-0 transition-all duration-300 hover:bg-[#FFFFFF] hover:text-black hover:scale-105">
+                                PIDES
+                            </button>
+                            <button
+                                class="text-white w-[138px] border border-[#FFFFFF] rounded-full px-[30px] py-[10px] bg-transparent flex-shrink-0 hover:bg-[#FFFFFF] hover:text-black transition-all duration-300 hover:scale-105">
+                                BURGERS
+                            </button>
+                            <button
+                                class="px-[30px] py-[10px]  w-[181px] rounded-full text-white border border-[#FFFFFF] bg-transparent flex-shrink-0 transition-all duration-300 hover:bg-[#FFFFFF] hover:text-black hover:scale-105">
+                                OTHER DISHES
+                            </button>
+                            <button
+                                class="text-white w-[107px] border border-[#FFFFFF] rounded-full px-[30px] py-[10px] bg-transparent flex-shrink-0 hover:bg-[#FFFFFF] hover:text-black transition-all duration-300 hover:scale-105">
+                                SIDES
+                            </button>
+                            <button
+                                class="text-white w-[123px] border border-[#FFFFFF] rounded-full px-[30px] py-[10px] bg-transparent flex-shrink-0 hover:bg-[#FFFFFF] hover:text-black transition-all duration-300 hover:scale-105">
+                                DRINKS
+                            </button>
+                            <button
+                                class="text-white w-[141px] border border-[#FFFFFF] rounded-full px-[30px] py-[10px] bg-transparent flex-shrink-0 hover:bg-[#FFFFFF] hover:text-black transition-all duration-300 hover:scale-105">
+                                DESSERTS
+                            </button>
+                            <button
+                                class="text-white w-[164px] border border-[#FFFFFF] rounded-full px-[30px] py-[10px] bg-transparent flex-shrink-0 hover:bg-[#FFFFFF] hover:text-black transition-all duration-300 hover:scale-105">
+                                MEAL DEALS
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div
+                    class="block lg:hidden overflow-x-auto [-ms-overflow-style:none] [scrollbar-width:none] [&::-webkit-scrollbar]:hidden">
+                    <div class="flex flex-nowrap gap-3 px-4 py-2">
+                        <button
+                            class="bg-white text-black border border-[#BB2339] rounded-full px-[30px] py-[10px] flex-shrink-0 transition-all duration-300 hover:bg-[#BB2339] hover:text-white hover:scale-105">
+                            All
+                        </button>
+
+                        <button
+                            class="text-black border border-[#BB2339] rounded-full px-[30px] py-[10px] bg-transparent flex-shrink-0 transition-all duration-300 hover:bg-[#BB2339] hover:text-white hover:scale-105">
+                            Shawarma
+                        </button>
+
+                        <button
+                            class="bg-white text-black border border-[#BB2339] px-[30px] py-[10px] rounded-full flex-shrink-0 transition-all duration-300 hover:bg-[#BB2339] hover:text-white hover:scale-105">
+                            Turk Kebab
+                        </button>
+
+                        <button
+                            class="text-black border border-[#BB2339] rounded-full px-[30px] py-[10px] bg-transparent flex-shrink-0 transition-all duration-300 hover:bg-[#BB2339] hover:text-white hover:scale-105">
+                            Hamburger Kebab
+                        </button>
+
+                        <button
+                            class="text-black border border-[#BB2339] rounded-full px-[30px] py-[10px] bg-transparent flex-shrink-0 transition-all duration-300 hover:bg-[#BB2339] hover:text-white hover:scale-105">
+                            Doner Kebab
+                        </button>
+
+                        <button
+                            class="text-black border border-[#BB2339] rounded-full px-[30px] py-[10px] bg-transparent flex-shrink-0 transition-all duration-300 hover:bg-[#BB2339] hover:text-white hover:scale-105">
+                            Shish Kebab
+                        </button>
+
+                        <button
+                            class="text-black border border-[#BB2339] rounded-full px-[30px] py-[10px] bg-transparent flex-shrink-0 transition-all duration-300 hover:bg-[#BB2339] hover:text-white hover:scale-105">
+                            French Fries Pizza
+                        </button>
+
+                        <button
+                            class="text-black border border-[#BB2339] rounded-full px-[30px] py-[10px] bg-transparent flex-shrink-0 transition-all duration-300 hover:bg-[#BB2339] hover:text-white hover:scale-105">
+                            Desserts
+                        </button>
+                    </div>
+                </div>
+                <div class="grid grid-cols-1 sm:grid-cols-2 gap-[20px] mb-[294px]">
+                    <div
+                        class="text-center justify-center px-[20px] pt-[20px] pb-[40px] bg-[#FFFFFF] w-[310px]  hover:scale-110 hover:shadow-lg shadow-gray500/50 transition duration-500 ease-in-out">
+                        <img src="../assets/images/shashlik-2.png" alt="shashlik">
+                        <p>Barbecue Shish kebab Shashlik Skewer</p>
+                        <h3 class="text-[24px] text-[#BB2339] font-bold">$12.00</h3>
+                    </div>
+                    <div
+                        class="text-center justify-center px-[20px] pt-[20px] pb-[40px] bg-[#FFFFFF] w-[310px]  hover:scale-110 hover:shadow-lg shadow-gray500/50 transition duration-500 ease-in-out">
+                        <img src="../assets/images/shashlik-2.png" alt="shashlik">
+                        <p>Barbecue Shish kebab Shashlik Skewer</p>
+                        <h3 class="text-[24px] text-[#BB2339] font-bold">$12.00</h3>
+                    </div>
+                    <div
+                        class="text-center justify-center px-[20px] pt-[20px] pb-[40px] bg-[#FFFFFF] w-[310px]  hover:scale-110 hover:shadow-lg shadow-gray500/50 transition duration-500 ease-in-out">
+                        <img src="../assets/images/shashlik-2.png" alt="shashlik">
+                        <p>Barbecue Shish kebab Shashlik Skewer</p>
+                        <h3 class="text-[24px] text-[#BB2339] font-bold">$12.00</h3>
+                    </div>
+                    <div
+                        class="text-center justify-center px-[20px] pt-[20px] pb-[40px] bg-[#FFFFFF] w-[310px]  hover:scale-110 hover:shadow-lg shadow-gray500/50 transition duration-500 ease-in-out">
+                        <img src="../assets/images/shashlik-2.png" alt="shashlik">
+                        <p>Barbecue Shish kebab Shashlik Skewer</p>
+                        <h3 class="text-[24px] text-[#BB2339] font-bold">$12.00</h3>
+                    </div>
+                    <div
+                        class="text-center justify-center px-[20px] pt-[20px] pb-[40px] bg-[#FFFFFF] w-[310px]  hover:scale-110 hover:shadow-lg shadow-gray500/50 transition duration-500 ease-in-out">
+                        <img src="../assets/images/shashlik-2.png" alt="shashlik">
+                        <p>Barbecue Shish kebab Shashlik Skewer</p>
+                        <h3 class="text-[24px] text-[#BB2339] font-bold">$12.00</h3>
+                    </div>
+                    <div
+                        class="text-center justify-center px-[20px] pt-[20px] pb-[40px] bg-[#FFFFFF] w-[310px]  hover:scale-110 hover:shadow-lg shadow-gray500/50 transition duration-500 ease-in-out">
+                        <img src="../assets/images/shashlik-2.png" alt="shashlik">
+                        <p>Barbecue Shish kebab Shashlik Skewer</p>
+                        <h3 class="text-[24px] text-[#BB2339] font-bold">$12.00</h3>
+                    </div>
+                    <div
+                        class="text-center justify-center px-[20px] pt-[20px] pb-[40px] bg-[#FFFFFF] w-[310px]  hover:scale-110 hover:shadow-lg shadow-gray500/50 transition duration-500 ease-in-out">
+                        <img src="../assets/images/shashlik-2.png" alt="shashlik">
+                        <p>Barbecue Shish kebab Shashlik Skewer</p>
+                        <h3 class="text-[24px] text-[#BB2339] font-bold">$12.00</h3>
+                    </div>
+                    <div
+                        class="text-center justify-center px-[20px] pt-[20px] pb-[40px] bg-[#FFFFFF] w-[310px]  hover:scale-110 hover:shadow-lg shadow-gray500/50 transition duration-500 ease-in-out">
+                        <img src="../assets/images/shashlik-2.png" alt="shashlik">
+                        <p>Barbecue Shish kebab Shashlik Skewer</p>
+                        <h3 class="text-[24px] text-[#BB2339] font-bold">$12.00</h3>
+                    </div>
+                    <div
+                        class="text-center justify-center px-[20px] pt-[20px] pb-[40px] bg-[#FFFFFF] w-[310px]  hover:scale-110 hover:shadow-lg shadow-gray500/50 transition duration-500 ease-in-out">
+                        <img src="../assets/images/shashlik-2.png" alt="shashlik">
+                        <p>Barbecue Shish kebab Shashlik Skewer</p>
+                        <h3 class="text-[24px] text-[#BB2339] font-bold">$12.00</h3>
+                    </div>
+                    <div
+                        class="text-center justify-center px-[20px] pt-[20px] pb-[40px] bg-[#FFFFFF] w-[310px]  hover:scale-110 hover:shadow-lg shadow-gray500/50 transition duration-500 ease-in-out">
+                        <img src="../assets/images/shashlik-2.png" alt="shashlik">
+                        <p>Barbecue Shish kebab Shashlik Skewer</p>
+                        <h3 class="text-[24px] text-[#BB2339] font-bold">$12.00</h3>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="bg-[#F4F4F4] my-[120px]">
+            <div class="container mx-auto py-[130px] flex flex-col gap-[20px] lg:flex-row items-center">
+                <div class="w-[491px] sm:w-full sm:max-w-[640px] md:max-w-[768px] lg:max-w-[1024px]">
+                    <h3 class="text-[#242424] text-[23px] font-bold leading-[130%] tracking-[104%]">Instagram</h3>
+                    <img class="mt-[8px]" src="../assets/images/qizilqoshiq.png" alt="qizilqoshiq">
+                    <h1 class="text-[#242424] text-[48px] font-medium leading-[130%] tracking-[103%] mt-[8px]">Photo
+                        Gallery</h1>
+                    <p class="text-[#AAAAAA] text-[16px] font-normal leading-[175%] tracking-[104%] mt-[24px]">Lorem
+                        ipsum dolor sit amet, consectetur adipiscing elit. Volutpat mattis ipsum turpis elit elit
+                        scelerisque egestas mu.</p>
+                    <button
+                        class=" mt-[32px] w-[149px] h-[44px] rounded-[100px] border-[1px] border-[#BB2339] text-[#BB2339] text-[16px] font-mdium hover:bg-[#BB2339] hover:text-[#FFFFFF] hover:transition duration-500 ease-in-out">View
+                        More</button>
+                </div>
+                <div
+                    class="flex items-center gap-[32px] overflow-x-auto [-ms-overflow-style:'none'] [scrollbar-width:'none'] [&::-webkit-scrollbar]:hidden">
+                    <div class="relative overflow-hidden rounded-[14px] w-[301px] flex-shrink-0 h-auto group">
+                        <img src="../assets/images/ramen.png" alt="ramen">
+                        <div
+                            class="bg-[#242424]/70 opacity-0 flex justify-center items-center absolute top-0 left-0 w-full h-full group-hover:opacity-100 hover:transition duration-500 ease-in-out">
+                            <a href="https://www.instagram.com/eaturkish/"><img src="../assets/images/big_instagram.png"
+                                    alt="instagram"></a>
+                        </div>
+                    </div>
+                    <div class="relative overflow-hidden rounded-[14px] w-[301px] flex-shrink-0 h-auto group">
+                        <img src="../assets/images/pivo.png" alt="pivo">
+                        <div
+                            class="bg-[#242424]/70 opacity-0 flex justify-center items-center absolute top-0 left-0 w-full h-full group-hover:opacity-100 hover:transition duration-500 ease-in-out">
+                            <a href="https://www.instagram.com/eaturkish/"><img src="../assets/images/big_instagram.png"
+                                    alt="instagram"></a>
+                        </div>
+                    </div>
+                    <div class="relative overflow-hidden rounded-[14px] w-[301px] flex-shrink-0 h-auto group">
+                        <img src="../assets/images/tuhum.png" alt="tuhum">
+                        <div
+                            class="bg-[#242424]/70 opacity-0 flex justify-center items-center absolute top-0 left-0 w-full h-full group-hover:opacity-100 hover:transition duration-500 ease-in-out">
+                            <a href="https://www.instagram.com/eaturkish/"><img src="../assets/images/big_instagram.png"
+                                    alt="instagram"></a>
+                        </div>
+                    </div>
+                    <div class="relative overflow-hidden rounded-[14px] w-[301px] flex-shrink-0 h-auto group">
+                        <img src="../assets/images/shorva.jpg" alt="0.5">
+                        <div
+                            class="bg-[#242424]/70 opacity-0 flex justify-center items-center absolute top-0 left-0 w-full h-full group-hover:opacity-100 hover:transition duration-500 ease-in-out">
+                            <a href="https://www.instagram.com/eaturkish/"><img src="../assets/images/big_instagram.png"
+                                    alt="instagram"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+
+    <footer class="bg-[#BB2339] border-t border-[#FFFFFF] border-oposity-20 py-[10%] mt-[341px]">
+        <div class="container mx-auto">
+            <div
+                class="py-[64px] px-6 sm:px-[100px] lg:px-[252px] border-[1px] border-[#FFFFFF] bg-[#BB2339] rounded-[30px] mt-[-200px] sm:mt-[-300px] lg:mt-[-370px] shadow-lg shadow-gray">
+                <h3
+                    class="text-center text-[18px] sm:text-[20px] lg:text-[23px] text-[#FFFFFF] font-bold leading-[130%] tracking-[104%]">
+                    Newsletter
+                </h3>
+                <h1
+                    class="mt-[25px] text-[28px] sm:text-[36px] lg:text-[48px] text-[#FFFFFF] text-center tracking-[3%] leading-[130%] font-medium">
+                    Subscribe to Our Newsletter
+                </h1>
+                <p
+                    class="mt-[24px] text-[14px] sm:text-[15px] lg:text-[16px] text-center text-[#FFFFFF] font-normal leading-[175%] tracking-[104%]">
+                    And never miss latest Updates!
+                </p>
+                <form action="">
+                    <div
+                        class="flex flex-col lg:flex-row justify-center items-center gap-[20px] sm:gap-[32px] mt-[40px] sm:mt-[64px]">
+                        <input placeholder="Email Address" required
+                            class="w-full max-w-[635px] text-[#AAAAAA] border border-[#F5EFDB80] opacity-[50%] rounded-[100px] px-[19px] py-[12px]"
+                            type="email">
+                        <button
+                            class="text-[14px] sm:text-[16px] text-[#FFFFFF] font-bold leading-[175%] tracking-[104%] border-[1px] border-[#FFFFFF] px-[24px] sm:px-[32px] py-[10px] sm:py-[12px] w-full sm:w-[144px] h-[45px] sm:h-[52px] rounded-[100px] hover:bg-[#FFFFFF] hover:text-[#BB2339] hover:transition duration-500 ease-in-out">
+                            Subscribe
+                        </button>
+                    </div>
+                </form>
+            </div>
+
+            <div class="lg:flex justify-between items-top mt-[100px] mb-[40px]">
+                <ul class="text-center text-[#FFFFFF] flex flex-col">
+                    <li>
+                        <a class="text-[32px] font-normal leading-[130%] tracking-[4%]"
+                            href="./pages/contact.html">Contact Us</a>
+                    </li>
+                    <li class="mt-[24px] font-normal text-[16px] leading-[26px] tracking-[4%]">
+                        <a href="">9 W 53rd St, London, NY 10019, UK</a>
+                    </li>
+                    <li class="mt-[10px] font-normal tracking-[4%] text-[16px] leading-[26px]">
+                        <a href="">+1 212-344-1230</a>
+                    </li>
+                    <li class="font-normal tracking-[4%] text-[16px] leading-[26px]">
+                        <a href="">+1 212-555-1230</a>
+                    </li>
+                </ul>
+                <div class="flex flex-col justify-center items-center text-center text-[#FFFFFF]">
+                    <img src="../assets/images/logo.png" alt="logo">
+                    <h3 class="mt-[32px] text-[16px] font-normal leading-26px tracking-[4%]">
+                        "The best way to find yourself is to lose yourself in the service of others.”</h3>
+                    <div class="flex justify-center items-center mt-[45px] gap-[17px]">
+                        <a href="https://www.facebook.com/eaturkishlondon/"><img src="../assets/images/u_facebook-f.png"
+                                alt="facebook"></a>
+                        <a href="https://twitter.com/search?q=%23eaturkish&src=hashtag_click"><img
+                                src="../assets/images/u_twitter-alt.png" alt="twitter"></a>
+                        <a href="https://www.instagram.com/eaturkish/"><img src="../assets/images/u_instagram.png"
+                                alt="instagram"></a>
+                    </div>
+                    <p class="font-normal text-[17px] leading-[175%] tracking-[4%]">2022 Pop online. All Rights
+                        reserved.</p>
+                </div>
+                <ul class="text-center text-[#FFFFFF] flex flex-col">
+                    <li>
+                        <a class="text-[32px] font-normal leading-[130%] tracking-[4%]"
+                            href="./pages/about.html">Working Hours</a>
+                    </li>
+                    <li class="mt-[24px] font-normal tracking-[4%] text-[16px] leading-[26px]">
+                        <a href="">Monday-Friday: <br>08:00 am -12:00 am</a>
+                    </li>
+                    <li class="mt-[12px] font-normal tracking-[4%] text-[16px] leading-[26px]">
+                        <a href="">Saturday-Sunday: <br>07:00am -11:00 pm</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
